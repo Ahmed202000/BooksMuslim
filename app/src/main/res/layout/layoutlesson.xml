@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:padding="8dp"
+    >
+
+    <ImageView
+        android:id="@+id/imglesson_L"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="3dp"
+        android:layout_margin="3dp"
+        android:background="@drawable/imageshape"/>
+
+    <TextView
+        android:id="@+id/lessonName_L"
+        android:layout_width="269dp"
+        android:layout_height="102dp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="lessonName"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
